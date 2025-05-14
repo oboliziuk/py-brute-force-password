@@ -39,7 +39,7 @@ def brute_force_range(
 
 
 def brute_force_password(
-        to_hash_list: list[str] = PASSWORDS_TO_BRUTE_FORCE
+        to_hash_list: list = PASSWORDS_TO_BRUTE_FORCE
 ) -> list:
     target_hashes = set(to_hash_list)
     total = 10**8  # 00000000 до 99999999
